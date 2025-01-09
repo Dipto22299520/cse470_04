@@ -1,0 +1,84 @@
+  .courses {
+    margin-top: 2%;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    background-color: antiquewhite;
+  }
+  
+  .button_style {
+    width: fit-content;
+    background-color: #eeeeee;
+    min-height: 100px;
+    padding: 10px 20px;
+    border: 1px solid rgb(173, 173, 210);
+    border-radius: 40%;
+    font-size: 1.3rem;
+    font-family: fantasy;
+    text-align: center;
+    display: inline-flex; /* Fixed invalid display value */
+  }
+  
+  .button_style:active {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  
+  .courses-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .courses-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 60px;
+    padding: 10px;
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .courses-list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, Edge */
+  }
+  
+  .course-button {
+    background-color: #bdb6b6;
+    border: 1px solid #cccccc;
+    border-radius: 15%; /* Removed redundant border-radius */
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .course-button:hover {
+    background-color: #ffffff; /* Added hover effect */
+  }
+  
+  .course-button:active {
+    background-color: #333;
+    color: beige;
+  }
+  
+  .arrow-button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    transition: transform 0.2s; /* Smooth transition for scaling effect */
+  }
+  
+  .arrow-button:active {
+    transform: scale(0.9);
+    background-color: #333;
+  }
+  
+  .arrow-button:hover {
+    color: #555; /* Added hover effect */
+  }

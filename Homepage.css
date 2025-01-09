@@ -1,0 +1,288 @@
+.homepage {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligns navbar items horizontally */
+    padding: 10px 20px;
+    background-color: #782885;
+  }
+  
+  .opening {
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 20px; 
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .text1{
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 190px; 
+    color: rgb(27, 18, 18);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  }
+  .text {
+    /* margin-left: 20px; */
+    text-decoration: none;
+    color: rgb(49, 50, 58);
+  }
+  .text2{
+    margin-top: 1.2%;
+    margin-left: 85px;
+    font-family: fantasy;
+    font-size: xx-large;
+  }
+  .searchbar-container {
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start; 
+    width: 100%;
+    margin-top: 2px; 
+    
+  }
+  
+  .searchbar {
+    margin-right: 20px; 
+    margin-left: 20px; 
+  }
+  
+  .searchbar input {
+    padding: 8px;
+    font-size: 1rem;
+    width: 1000px;
+    border-radius: 4px;
+    border: 1px solid #f4f4f4;
+  }
+  
+  .right-side {
+    display: flex; 
+    justify-content: flex-start;
+  }
+  
+  .right-side a {
+    margin-left: 20px; 
+  }
+  .picture_provider {
+    width: 100%; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .picture {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px; 
+  }
+  .main_text{
+    color: rgb(10, 10, 11);
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: fantasy;
+    font-size: 50px;
+  }
+  .courses {
+    max-width: 100%;
+    min-height: fit-content;
+    margin-top: 1.2%;
+    height: 60px;
+    background-color: antiquewhite;
+    gap: 20px;
+  }
+  .courses1 {
+    max-width: 100%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 100px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  }
+  .courses2 {
+    max-width: 100%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 100px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 3%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+  }
+  .courses {
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    background-color: rgb(229, 229, 229);
+  }
+  
+  .button_style {
+    width: fit-content;
+    background-color: #fafafa;
+    min-height: 100px;
+    padding: 10px 20px;
+    border: 1px solid rgb(173, 173, 210);
+    border-radius: 40%;
+    font-size: 1.3rem;
+    font-family: fantasy;
+    text-align: center;
+    display: inline-flex; /* Fixed invalid display value */
+  }
+  
+  .button_style:active {
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+  
+  .courses-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    
+  }
+  
+  .courses-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 60px;
+    padding: 10px;
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .courses-list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, Edge */
+  }
+  
+  .course-button {
+    background-color: #bdb6b6;
+    border: 1px solid #cccccc;
+    border-radius: 15%; /* Removed redundant border-radius */
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .course-button:hover {
+    background-color: #ffffff; /* Added hover effect */
+  }
+  
+  .course-button:active {
+    background-color: #333;
+    color: beige;
+  }
+  
+  .arrow-button {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    transition: transform 0.2s; 
+  }
+  
+  .arrow-button:active {
+    transform: scale(0.9);
+    background-color: #333;
+  }
+  
+  .arrow-button:hover {
+    color: #555; /* Added hover effect */
+  }
+  .boxes{
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+    height: 400px;
+    width: fit-content;
+    color: #333;
+    background-color: rgb(144, 126, 126)
+  }
+  .picture1 img {
+    width: 300px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .texter{
+    text-align: center;
+  }
+  .mentor-list {
+    margin-top: 20px;
+  }
+  
+  .top-mentors {
+    margin: 20px;
+  }
+  
+  .top-mentors .text2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .top-mentors-container {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: flex-start; 
+  }
+  .mentor-card {
+    all: unset; /* Reset default button styles */
+    display: block;
+    background: linear-gradient(to bottom, #161616, #f0f0f0);
+    border: 1px solid #ddd;
+    margin-left: 85px;
+    min-height: 400px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer; /* Add pointer cursor */
+    transition: transform 0.2s ease; /* Optional hover effect */
+    
+  }
+  
+  .mentor-card:hover {
+    transform: scale(1.22); /* Slightly enlarge on hover */
+  }
+  
+  
+  
+  .mentor-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .mentor-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  .mentor-image {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0; 
+    margin-bottom: 10px; 
+  }
+  .mentors-container{
+      flex-wrap: wrap;
+      gap: 20px; 
+      justify-content: flex-start; 
+    }

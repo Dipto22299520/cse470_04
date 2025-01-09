@@ -1,0 +1,113 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .search-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form Container */
+  .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+    margin-left: 5%
+  }
+  
+  .form-group {
+    flex: 1 1 30%; /* Allow the form inputs to take up to 30% width and wrap */
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 25%;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  /* Price Range Input Styling */
+  .form-input[type="range"] {
+    margin-left: 25%;
+    width: 100%;
+  }
+  
+  /* Submit Button Styling */
+  .submit-button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #003874;
+  }
+  .mentor-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .mentor-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+  }
+  
+  .mentor-details {
+    margin-top: 10px;
+  }
+  
+  .mentor-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .enroll-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enroll-button:hover {
+    background-color: #45a049;
+  }
+  
